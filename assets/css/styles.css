@@ -246,7 +246,8 @@ section { padding: 5rem 0; }
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 0.5rem);
+  top: 100%;
+  padding-top: 0.5rem;
   left: 0;
   background: var(--color-white);
   border: 1px solid #eee;
