@@ -239,6 +239,26 @@ section { padding: 5rem 0; }
   color: rgba(255,255,255,0.5);
   text-align: center;
 }
+/* Nav alignment fix */
+.nav__links { margin-left: auto; }
+[data-netlify-identity-menu] { display: none !important; }
+
+/* Hero buttons — white on purple */
+.hero .btn-primary {
+  background: #fff;
+  color: var(--color-purple);
+  border-color: #fff;
+}
+.hero .btn-primary:hover {
+  background: transparent;
+  color: #fff;
+}
+
+/* Footer contact info */
+.footer__contact { margin-top: 1rem; font-size: 0.9rem; }
+.footer__contact p { margin: 0.2rem 0; }
+.footer__contact a { color: rgba(255,255,255,0.7); text-decoration: none; }
+.footer__contact a:hover { color: #fff; }
 
 /* --- Nav Dropdown --- */
 .has-dropdown { position: relative; }
