@@ -23,6 +23,47 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pawandprosper.com/#organization",
+        "name": "Paw & Prosper",
+        "url": "https://pawandprosper.com",
+        "logo": "https://pawandprosper.com/assets/images/logo.png",
+        "email": "samantha@pawandprosper.com",
+        "telephone": "+17133195149",
+        "sameAs": [
+          "https://www.facebook.com/pawandprospermarketing",
+          "https://www.instagram.com/pawandprosper",
+          "https://www.linkedin.com/company/paw-and-prosper",
+          "https://www.tiktok.com/@pawandprosper",
+          "https://www.youtube.com/@PawAndProsper"
+        ],
+        "description": "SEO and AI visibility specialists for veterinarians, pet brands, animal shelters, and animal rescues."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://pawandprosper.com/#website",
+        "url": "https://pawandprosper.com",
+        "name": "Paw & Prosper",
+        "publisher": { "@id": "https://pawandprosper.com/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://pawandprosper.com/#webpage",
+        "url": "https://pawandprosper.com/",
+        "name": "SEO & AI Search Optimization for Pet Wellness Businesses | Paw & Prosper",
+        "isPartOf": { "@id": "https://pawandprosper.com/#website" },
+        "about": { "@id": "https://pawandprosper.com/#organization" }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>

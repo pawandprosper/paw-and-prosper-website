@@ -23,6 +23,45 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pawandprosper.com/#organization",
+        "name": "Paw & Prosper",
+        "url": "https://pawandprosper.com"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://pawandprosper.com/services",
+        "name": "SEO & AI Visibility Services for Animal Wellness Businesses | Paw & Prosper",
+        "isPartOf": { "@id": "https://pawandprosper.com/#website" }
+      },
+      {
+        "@type": "Service",
+        "name": "SEO & AI Visibility for Animal Wellness Businesses",
+        "provider": { "@id": "https://pawandprosper.com/#organization" },
+        "serviceType": "Digital Marketing",
+        "areaServed": "United States",
+        "description": "Local SEO, AI visibility optimization, content strategy, and LLM citation building for veterinary clinics, pet brands, animal shelters, and animal rescues.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Paw & Prosper Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local SEO Optimization" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Visibility & LLM Optimization" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Content Strategy & Authority Building" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Chatbot Implementation" } }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
