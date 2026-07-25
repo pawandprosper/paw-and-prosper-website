@@ -120,7 +120,7 @@ section { padding: 5rem 0; }
 }
 .nav__links a:hover { color: var(--color-purple); }
 
-.nav__cta { margin-left: 1rem; }
+.nav__cta { margin-left: 1rem; color: #fff !important; }
 
 /* Mobile nav toggle */
 .nav__toggle {
