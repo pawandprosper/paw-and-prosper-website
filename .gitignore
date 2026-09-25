@@ -1,3 +1,7 @@
 # Local Netlify folder
 .netlify
 .DS_Store
+
+# Secret tokens — never commit these
+.env
+GHT.rtf
