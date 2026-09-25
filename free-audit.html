@@ -6,7 +6,7 @@
 
   <!-- SEO -->
   <title>Free SEO + AI Visibility Audit for Pet Businesses | Paw & Prosper</title>
-  <meta name="description" content="Discover exactly where your pet business stands in Google and AI search. Get your free personalized audit — no obligation, no hard sell." />
+  <meta name="description" content="Discover exactly where your pet business stands in Google and AI search. Get your free personalized audit, no obligation, no hard sell." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://pawandprosper.com/free-audit" />
 
@@ -46,53 +46,15 @@
   }
   </script>
 
-  <!-- Page-specific form styles -->
+  <!-- Page-specific styles -->
   <style>
     .form-card {
       background: var(--color-white);
       border-radius: 12px;
       padding: 2.5rem;
       box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-      max-width: 640px;
+      max-width: 700px;
       margin: 0 auto;
-    }
-
-    .form-group {
-      margin-bottom: 1.5rem;
-    }
-
-    label {
-      display: block;
-      font-weight: 500;
-      font-size: 0.9rem;
-      color: var(--color-plum);
-      margin-bottom: 0.4rem;
-    }
-
-    input, select, textarea {
-      width: 100%;
-      padding: 0.75rem 1rem;
-      border: 1.5px solid #ddd;
-      border-radius: var(--radius);
-      font-family: var(--font-body);
-      font-size: 1rem;
-      color: var(--color-text);
-      transition: border-color 0.2s;
-      background: var(--color-white);
-    }
-
-    input:focus, select:focus, textarea:focus {
-      outline: 2px solid var(--color-purple);
-      outline-offset: 1px;
-      border-color: var(--color-purple);
-    }
-
-    textarea { resize: vertical; min-height: 120px; }
-
-    .form-submit {
-      width: 100%;
-      padding: 1rem;
-      font-size: 1rem;
     }
 
     .what-included {
@@ -111,10 +73,7 @@
       font-family: var(--font-body);
     }
 
-    .what-included ul {
-      list-style: none;
-      padding: 0;
-    }
+    .what-included ul { list-style: none; padding: 0; }
 
     .what-included li {
       padding: 0.4rem 0;
@@ -123,25 +82,6 @@
     }
 
     .what-included li::before {
-      content: "✓ ";
-      color: var(--color-sage);
-      font-weight: 700;
-    }
-
-    .reassurance {
-      display: flex;
-      gap: 1.5rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 1.5rem;
-    }
-
-    .reassurance span {
-      font-size: 0.85rem;
-      color: var(--color-text-light);
-    }
-
-    .reassurance span::before {
       content: "✓ ";
       color: var(--color-sage);
       font-weight: 700;
@@ -159,7 +99,7 @@
       </a>
 <ul class="nav__links" id="nav-links">
   <li class="has-dropdown">
-    <a href="/services.html">Services ▾</a>
+    <a href="/services.html">Services</a>
     <ul class="dropdown-menu">
       <li><a href="/seo-for-veterinary-clinics.html">Veterinary Clinics</a></li>
       <li><a href="/seo-for-animal-shelters.html">Animal Shelters</a></li>
@@ -183,7 +123,7 @@
   <section class="hero">
     <div class="container">
       <h1>Your Free SEO + AI Visibility Audit</h1>
-      <p>Discover exactly where you stand in search — and what to do next. No guesswork, no overwhelm, no hard sell.</p>
+      <p>Discover exactly where you stand in search, and what to do next. No guesswork, no overwhelm, no hard sell.</p>
       <div class="hero__badges">
         <span class="badge">Takes less than 2 minutes</span>
         <span class="badge">Results within 48 hours</span>
@@ -209,99 +149,8 @@
           </ul>
         </div>
 
-        <!-- THE FORM — netlify attribute makes this work automatically -->
-        <form
-          name="free-audit"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-          action="/thank-you.html"
-        >
-          <!-- Honeypot field — hidden from humans, catches bots -->
-          <p style="display:none;">
-            <label>Don't fill this out: <input name="bot-field" /></label>
-          </p>
-
-          <!-- Required by Netlify Forms -->
-          <input type="hidden" name="form-name" value="free-audit" />
-
-          <div class="form-group">
-            <label for="name">Your Name *</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Jane Smith"
-              required
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="email">Email Address *</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="you@yourbusiness.com"
-              required
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="business">Business Name *</label>
-            <input
-              type="text"
-              id="business"
-              name="business"
-              placeholder="Happy Paws Veterinary Clinic"
-              required
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="website">Website URL</label>
-            <input
-              type="url"
-              id="website"
-              name="website"
-              placeholder="https://yourbusiness.com"
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="business-type">Type of Business *</label>
-            <select id="business-type" name="business-type" required>
-              <option value="" disabled selected>Select your business type</option>
-              <option value="veterinary-clinic">Veterinary Clinic</option>
-              <option value="animal-shelter">Animal Shelter</option>
-              <option value="animal-rescue">Animal Rescue / Nonprofit</option>
-              <option value="holistic-wellness">Holistic Pet Wellness Provider</option>
-              <option value="pet-brand">Pet Product Brand</option>
-              <option value="pet-services">Pet Services (grooming, boarding, training)</option>
-              <option value="other">Other Animal Wellness Business</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="goals">What's your biggest visibility challenge? (optional)</label>
-            <textarea
-              id="goals"
-              name="goals"
-              placeholder="e.g. We don't show up on Google when people search for vets near us..."
-            ></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary form-submit">
-            Request My Free Audit →
-          </button>
-
-          <div class="reassurance">
-            <span>No hard sell</span>
-            <span>No obligation</span>
-            <span>Results in 48 hours</span>
-          </div>
-
-        </form>
+        <!-- Jotform embed -->
+        <script type="text/javascript" src="https://form.jotform.com/jsform/260107307250040"></script>
       </div>
     </div>
   </section>
@@ -328,7 +177,7 @@
         <div class="card" style="text-align:center;">
           <div style="font-size:2rem; font-weight:700; color:var(--color-purple); margin-bottom:0.5rem;">03</div>
           <h3>Receive Your Report</h3>
-          <p>Get a personalized audit with your top 3 priority recommendations — clear and jargon-free.</p>
+          <p>Get a personalized audit with your top 3 priority recommendations, clear and jargon-free.</p>
         </div>
         <div class="card" style="text-align:center;">
           <div style="font-size:2rem; font-weight:700; color:var(--color-purple); margin-bottom:0.5rem;">04</div>
@@ -360,7 +209,6 @@
           </div>
           <div class="footer__contact">
             <p><a href="mailto:samantha@pawandprosper.com">samantha@pawandprosper.com</a></p>
-            <p><a href="tel:7133195149">(713) 319-5149</a></p>
           </div>
         </div>
         <div class="footer__links">
