@@ -279,7 +279,8 @@ section { padding: 5rem 0; }
   padding: 0.5rem 0;
 }
 
-.has-dropdown:hover .dropdown-menu { display: block; }
+.has-dropdown:hover .dropdown-menu,
+.has-dropdown.open .dropdown-menu { display: block; }
 
 .dropdown-menu li a {
   display: block;
@@ -367,6 +368,10 @@ section { padding: 5rem 0; }
   color: var(--color-plum);
   margin-bottom: 0.75rem;
   line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .blog-card__excerpt {
