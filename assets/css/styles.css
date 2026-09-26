@@ -7,8 +7,8 @@
 
 /* --- Brand Colors (change here = changes everywhere) --- */
 :root {
-  --color-purple:    #67597A;
-  --color-plum:      #544E61;
+  --color-purple:    #6B5C7E;
+  --color-plum:      #4E4660;
   --color-sage:      #85BAA1;
   --color-mint:      #CEEDDB;
   --color-slate:     #6E8894;
@@ -21,7 +21,8 @@
   --font-body:    'Inter', system-ui, sans-serif;
 
   --max-width: 1140px;
-  --radius:    8px;
+  --radius:     12px;
+  --radius-btn: 99px;
 }
 
 /* --- Reset --- */
@@ -63,13 +64,14 @@ section { padding: 5rem 0; }
 .btn {
   display: inline-block;
   padding: 0.85rem 2rem;
-  border-radius: var(--radius);
+  border-radius: var(--radius-btn);
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
   transition: all 0.2s ease;
   border: 2px solid transparent;
+  letter-spacing: 0.01em;
 }
 
 .btn-primary {
@@ -174,20 +176,39 @@ section { padding: 5rem 0; }
 }
 
 .card {
-  background: var(--color-offwhite);
+  background: var(--color-white);
   border-radius: var(--radius);
   padding: 2rem;
-  border: 1px solid #ebebeb;
+  border: 1px solid rgba(78, 70, 96, 0.08);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+.card:hover {
+  box-shadow: 0 6px 20px rgba(78, 70, 96, 0.1);
+  transform: translateY(-2px);
+}
+
+.section--offwhite .card { background: var(--color-white); }
+.section--mint .card     { background: rgba(255,255,255,0.6); }
+
 .card__icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 1.25rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-mint);
+  border-radius: 12px;
+  line-height: 1;
 }
 
 /* --- Section Helpers --- */
-.section--mint   { background: var(--color-mint); }
+.section--mint     { background: var(--color-mint); }
 .section--offwhite { background: var(--color-offwhite); }
+.section--offwhite .card { background: var(--color-white); }
 
 .section__header {
   text-align: center;
