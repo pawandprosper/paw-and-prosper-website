@@ -86,6 +86,13 @@
   </url>
 
   <url>
+    <loc>https://pawandprosper.com/privacy</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
     <loc>https://pawandprosper.com/blog</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
