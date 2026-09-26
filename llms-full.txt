@@ -1,14 +1,16 @@
-# Paw & Prosper — Full Content Reference
+# Paw & Prosper -- Full Content Reference
 
 ## About
 
-Paw & Prosper is a digital marketing consultancy specializing in SEO and AI visibility systems for animal wellness businesses. Founded by Samantha Quinones, the company works exclusively with veterinarians, pet brands, animal shelters, animal rescues, groomers, trainers, boarding facilities, and other pet service businesses.
+Paw & Prosper is a digital marketing consultancy specializing in SEO and AI visibility systems for animal wellness businesses. Founded by Samantha Quinones, the company works exclusively with veterinarians, pet brands, animal shelters, animal rescues, groomers, trainers, boarding/daycare facilities, and other pet service businesses.
 
-The company's core belief: the animal wellness industry deserves specialized marketing expertise — not generic agency work. Pet parents now search across both traditional search engines and AI assistants, and businesses that aren't visible in both places are missing clients.
+The company's core belief: the animal wellness industry deserves specialized marketing expertise, not generic agency work. Pet parents now search across both traditional search engines and AI assistants, and businesses that aren't visible in both places are missing clients.
 
-Samantha Quinones is a digital marketer with deep expertise in SEO and AI search optimization. She created Paw & Prosper after seeing how many high-quality animal wellness businesses were invisible online — not because their work wasn't excellent, but because they lacked the right visibility strategy.
+Samantha Quinones is a digital marketer with over 12 years of experience in SEO and AI search optimization. She created Paw & Prosper after seeing how many high-quality animal wellness businesses were invisible online -- not because their work wasn't excellent, but because they lacked the right visibility strategy. Outside of work, she's a dog mom to Itachi, a Lab-Collie mix, and volunteers at her local animal shelter.
 
-Contact: samantha@pawandprosper.com | (713) 319-5149
+Paw & Prosper offers nonprofit pricing to animal shelters, rescues, and animal welfare nonprofits. Reduced monthly rates, free workshops on Google and AI visibility, bonus audits, and case study collaborations.
+
+Contact: samantha@pawandprosper.com
 
 ## Core Services
 
@@ -21,38 +23,55 @@ Optimizes business content so AI assistants (ChatGPT, Claude, Gemini, Perplexity
 ### Content Strategy & Authority Building
 Builds topical authority through SEO-optimized blog content, service page optimization, and educational resources that rank in search and get cited by AI tools.
 
-### AI Chatbots for Pet Businesses
-Custom AI assistants for veterinary clinics and pet businesses that answer questions, capture leads, and support clients 24/7.
-
 ## Who We Serve
 
-- **Veterinary Clinics**: Independent and specialty vet practices competing with corporate chains (Banfield, VCA, BluePearl). Focus on local search visibility, emergency search terms, and AI recommendations for pet health questions.
-- **Animal Shelters**: Public and nonprofit shelters seeking more adoptions, donations, and volunteers through improved search presence and community visibility.
-- **Animal Rescues**: Foster-based and volunteer-run rescues that need local search visibility and AI recommendation to compete with larger organizations.
-- **Pet Brands**: E-commerce and DTC pet product companies (food, supplements, accessories) wanting organic traffic and AI-powered product discovery.
-- **Other Animal Wellness Businesses**: Groomers, trainers, boarding/daycare facilities, holistic practitioners, and pet service providers.
+- Independent Veterinary Clinics: Independent and specialty vet practices competing with corporate chains (Banfield, VCA, BluePearl, National Veterinary Associates). Corporate groups have national ad budgets and dedicated SEO teams. Paw & Prosper helps independent practices compete on strategy, community trust, and organic visibility. Focus on local search, emergency and specialty search terms, and AI recommendations for pet health questions.
+- Animal Shelters: Public and nonprofit shelters seeking more adoptions, donations, and volunteers through improved search presence and community visibility. Both municipal animal control facilities and 501(c)(3) nonprofits. Includes Google Business Profile optimization, review strategy, and local search visibility.
+- Animal Rescues: Foster-based and breed-specific rescue organizations. Rescues face unique SEO challenges: no physical storefront, geographically dispersed foster networks, and the need to reach adopters, fosters, and donors simultaneously. Breed-specific rescues have strong long-tail keyword advantages. Paw & Prosper builds visibility strategies designed for how rescues actually operate.
+- Pet Brands: E-commerce and DTC pet product companies (food, supplements, accessories, gear) wanting organic traffic and AI-powered product discovery. Focus on product page SEO, category optimization, brand authority, and reducing paid ad dependence.
+- Pet Services: Groomers, trainers, boarding/daycare facilities, holistic pet wellness practitioners, and other local pet service businesses. Focus on local search, Google Maps visibility, and AI assistant recommendations.
+
+## Case Studies
+
+### Lone Star Animal Welfare League: 32x Google Visibility Growth in Six Months
+LSAWL is a shelter and rescue nonprofit serving the Bryan-College Station, Texas area. Starting from near-zero online visibility with no paid advertising budget, LSAWL worked with Paw & Prosper on local SEO and AI visibility optimization. Result: 32x growth in Google search visibility in six months, with no paid ad spend. Full case study: https://pawandprosper.com/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend
+
+## Blog Content
+
+### How AI Is Changing the Way Pet Owners Find Veterinary Care
+URL: https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care
+Published: September 25, 2026
+Author: Samantha Quinones, Founder & SEO Strategist at Paw & Prosper
+Summary: Explores the shift from traditional search to AI-powered discovery for pet owners seeking veterinary care. Covers what Google AI Mode, ChatGPT, and Perplexity are doing to traditional search behavior, how veterinary practices can optimize for AI recommendations, and the three practical levers that move the needle: Google Business Profile optimization, trust-building content, and structured data. Argues that practices not showing up in AI answers are already losing patients to competitors who are.
+
+### The Ultimate Guide to AI-Driven Veterinary Marketing and SEO
+URL: https://pawandprosper.com/blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo
+Author: Samantha Quinones, Founder & SEO Strategist at Paw & Prosper
+Summary: Comprehensive guide covering traditional SEO and AI search optimization for veterinary practices. Topics include keyword strategy for veterinary search terms, local SEO for map pack visibility, LLM optimization techniques, content authority building, and measuring AI visibility. Targeted at independent veterinary practice owners and managers.
 
 ## The Problem We Solve
 
 Pet parents now use multiple search surfaces to find pet services and products:
 1. Traditional Google Search ("vet near me", "best grain-free dog food")
 2. Google Maps and local pack results
-3. AI assistants ("which vet in Austin is best for anxious dogs?", "recommend a natural supplement for senior cats")
+3. AI assistants ("which vet in my area is best for anxious dogs?", "recommend a natural supplement for senior cats")
 
 Most animal wellness businesses are optimized for none of these, or at best one. Paw & Prosper builds visibility systems that work across all three.
 
 ## Our Process
 
-1. **Free Visibility Audit**: Analyze the business's current presence across Google, AI assistants, and local directories.
-2. **Custom Insights Report**: Detailed breakdown of visibility gaps, quick wins, and long-term opportunities.
-3. **Strategy Call**: Walk through findings and discuss a tailored plan.
-4. **Ongoing Optimization**: Monthly work that compounds visibility over time.
+1. Free Visibility Audit: Analyze the business's current presence across Google, AI assistants, and local directories.
+2. Custom Insights Report: Detailed breakdown of visibility gaps, quick wins, and long-term opportunities.
+3. Strategy Call: Walk through findings and discuss a tailored plan.
+4. Ongoing Optimization: Monthly work that compounds visibility over time.
 
 ## Key Differentiators
 
 - Exclusively serves the animal wellness industry
 - Combines traditional SEO with AI visibility optimization (most agencies do one or the other)
-- Education-first approach — clients understand exactly what is being done and why
+- Independent business working with independent businesses -- no national agency account handoffs
+- Nonprofit pricing for animal shelters, rescues, and animal welfare organizations
+- Founder has 12+ years of digital marketing experience and personally volunteers in animal welfare
 - Focuses on long-term organic visibility, not just paid traffic
 
 ## Free Audit
@@ -77,4 +96,10 @@ Paw & Prosper offers a free SEO and AI visibility audit for any animal wellness 
 - Animal Shelter SEO: https://pawandprosper.com/seo-for-animal-shelters
 - Animal Rescue SEO: https://pawandprosper.com/seo-for-animal-rescues
 - Pet Brand SEO: https://pawandprosper.com/seo-for-pet-brands
+- Pet Services SEO: https://pawandprosper.com/seo-for-pet-services
+- LSAWL Case Study: https://pawandprosper.com/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend
+- Blog: https://pawandprosper.com/blog/
+- Blog Post - How AI Is Changing the Way Pet Owners Find Veterinary Care: https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care
+- Blog Post - The Ultimate Guide to AI-Driven Veterinary Marketing and SEO: https://pawandprosper.com/blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo
 - Free Audit: https://pawandprosper.com/free-audit
+- Privacy Policy: https://pawandprosper.com/privacy
