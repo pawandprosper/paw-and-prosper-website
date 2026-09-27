@@ -583,7 +583,6 @@ section { padding: 5rem 0; }
 /* ============================================
       MOBILE FIXES - 2026-09-26
    ============================================ */
-@media (max-width: 768px) {
   body, section { overflow-x: hidden; }
   .grid-3 { grid-template-columns: 1fr; }
   .home-bio-grid { grid-template-columns: 1fr !important; }

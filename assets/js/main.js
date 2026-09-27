@@ -30,4 +30,4 @@ document.querySelectorAll('.dropdown-menu a').forEach(link => {
     toggle.setAttribute('aria-expanded', 'false');
     hasDropdowns.forEach(d => d.classList.remove('open'));
   });
-});
+});if(window.innerWidth<=768){var d=document.querySelector('.has-dropdown');if(d){d.querySelector('a').addEventListener('click',function(e){e.preventDefault();d.classList.toggle('open');});}}
