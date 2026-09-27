@@ -1,5 +1,5 @@
 /* ============================================
-   PAW & PROSPER — STYLESHEET
+   PAW & PROSPER: STYLESHEET
    ============================================ */
 
 /* --- Google Fonts --- */
@@ -277,7 +277,7 @@ section { padding: 5rem 0; }
 .nav__links { margin-left: auto; }
 [data-netlify-identity-menu] { display: none !important; }
 
-/* Hero buttons — white on purple */
+/* Hero buttons: white on purple */
 .hero .btn-primary {
   background: #fff;
   color: var(--color-purple);
@@ -311,10 +311,10 @@ section { padding: 5rem 0; }
   transition: transform 0.2s ease;
 }
 
-.has-dropdown:hover > a::after,
-.has-dropdown.open > a::after {
-  transform: rotate(180deg);
+@media (min-width: 769px) {
+  .has-dropdown:hover > a::after { transform: rotate(180deg); }
 }
+.has-dropdown.open > a::after { transform: rotate(180deg); }
 
 .dropdown-menu {
   display: none;
@@ -332,8 +332,10 @@ section { padding: 5rem 0; }
   padding: 0.5rem 0;
 }
 
-.has-dropdown:hover .dropdown-menu,
-.has-dropdown.open .dropdown-menu { display: block; }
+@media (min-width: 769px) {
+  .has-dropdown:hover .dropdown-menu,
+  .has-dropdown.open .dropdown-menu { display: block; }
+}
 
 .dropdown-menu li a {
   display: block;
@@ -580,20 +582,121 @@ section { padding: 5rem 0; }
 @media (max-width: 768px) {
   .blog-grid { grid-template-columns: 1fr; }
   .blog-post { padding: 3rem 1.25rem 4rem; }
+}
+
 /* ============================================
-      MOBILE FIXES - 2026-09-26
+   COMPONENTS (replace old inline layout styles)
    ============================================ */
-  body, section { overflow-x: hidden; }
-  .grid-3 { grid-template-columns: 1fr; }
-  .home-bio-grid { grid-template-columns: 1fr !important; }
-  .about-bio-grid { grid-template-columns: 1fr !important; }
-  .card { padding: 1rem 1.25rem; }
-  .card__icon { width: 36px; height: 36px; font-size: 1rem; margin-bottom: 0.75rem; }
-  img[alt*="Itachi"] { max-width: 100% !important; width: 100% !important; height: auto !important; }
-  iframe { max-width: 100% !important; }
-  .has-dropdown > .dropdown-menu { position: static; box-shadow: none; background: var(--color-offwhite); padding: 0.5rem 0 0.5rem 1rem; border-radius: 8px; display: none; }
-  .has-dropdown.open > .dropdown-menu { display: flex; flex-direction: column; gap: 0.5rem; }
-  .has-dropdown > a { display: flex; justify-content: space-between; align-items: center; width: 100%; }
-  .has-dropdown > a::after { content: "+"; font-size: 1.2rem; line-height: 1; }
-  .has-dropdown.open > a::after { content: "-"; }
+
+/* Homepage results strip */
+.results-grid { max-width: 900px; margin: 0 auto 3rem; gap: 1.5rem; }
+.stat-card { text-align: center; }
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--color-purple);
+  margin-bottom: 0.5rem;
+}
+.stat-label { margin: 0; color: var(--color-text-light); }
+
+/* Founder bio (homepage + about) */
+.bio-grid {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+.bio-grid--about { grid-template-columns: 1fr 2fr; }
+.bio-grid__photo { text-align: center; }
+.bio-photo { border-radius: 12px; width: 100%; }
+.bio-caption { text-align: center; margin-top: 0.5rem; font-size: 0.85rem; }
+
+/* About: Empathy / Care / Trust */
+.values-grid { max-width: 700px; margin: 0 auto; }
+.values-grid .card__icon { margin-left: auto; margin-right: auto; }
+.values-grid h3 { margin-bottom: 0; }
+
+/* About: Itachi */
+.itachi { text-align: center; margin-top: 4rem; }
+.itachi__photo { border-radius: 12px; width: 100%; max-width: 400px; margin: 0 auto; }
+.itachi__caption { margin-top: 0.75rem; color: var(--color-text-light); }
+
+/* "All Services" link is added by main.js for the mobile accordion only */
+.dropdown-menu__all { display: none; }
+
+/* ============================================
+   MOBILE (768px and below)
+   ============================================ */
+@media (max-width: 768px) {
+  html, body { overflow-x: clip; }
+  iframe { max-width: 100%; }
+
+  /* Menu panel */
+  .nav__links.open {
+    align-items: stretch;
+    gap: 0;
+    padding: 0.25rem 1.5rem 1.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    max-height: calc(100vh - 72px);
+    overflow-y: auto;
+  }
+  .nav__links.open > li { border-bottom: 1px solid #f0eef3; }
+  .nav__links.open > li:last-child { border-bottom: none; padding-top: 1.25rem; }
+  .nav__links.open > li > a:not(.btn) { display: block; padding: 0.9rem 0; font-size: 1.05rem; }
+  .nav__cta { margin-left: 0; display: block; text-align: center; }
+
+  /* Services accordion */
+  .has-dropdown > a:not(.btn) { display: flex !important; justify-content: space-between; align-items: center; }
+  .has-dropdown > a::after { width: 12px; height: 8px; background-size: 12px 8px; }
+  .dropdown-menu {
+    display: block;
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+    min-width: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    transition: max-height 0.25s ease, padding 0.25s ease;
+  }
+  .has-dropdown.open .dropdown-menu { max-height: 420px; padding-bottom: 0.75rem; }
+  .dropdown-menu li a {
+    padding: 0.55rem 0 0.55rem 1rem;
+    font-size: 0.95rem;
+    border-left: 2px solid var(--color-mint);
+  }
+  .dropdown-menu li a:hover { background: transparent; }
+  .dropdown-menu__all { display: block; }
+  .dropdown-menu__all a { font-weight: 600 !important; }
+
+  /* Results strip: compact rows, number left, label right */
+  .results-grid { gap: 1rem; }
+  .stat-card {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    padding: 1.25rem 1.5rem;
+  }
+  .stat-number { font-size: 1.9rem; margin: 0; }
+  .stat-label { font-size: 0.95rem; line-height: 1.45; }
+
+  /* Bio: photo on top, text full width */
+  .bio-grid,
+  .bio-grid--about { grid-template-columns: 1fr; gap: 1.5rem; }
+  .bio-grid__photo { max-width: 170px; margin: 0 auto; }
+
+  /* Values: stay three across, small tiles */
+  .values-grid { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  .values-grid .card { padding: 1rem 0.5rem; }
+  .values-grid .card__icon { width: 40px; height: 40px; font-size: 1.15rem; margin-bottom: 0.5rem; }
+  .values-grid h3 { font-size: 1rem; }
+
+  /* Itachi */
+  .itachi { margin-top: 2.5rem; }
+  .itachi__photo { max-width: 300px; }
 }
