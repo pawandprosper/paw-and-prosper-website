@@ -27,6 +27,9 @@
   <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 
   <!-- Stylesheet -->
+  <link rel="preconnect" href="https://form.jotform.com" />
+  <link rel="preconnect" href="https://cdn.jotfor.ms" crossorigin />
+  <link rel="dns-prefetch" href="https://submit.jotform.com" />
   <link rel="stylesheet" href="/assets/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
@@ -63,6 +66,23 @@
       margin: 0 auto;
     }
 
+    .jotform-wrap { position: relative; min-height: 600px; }
+    .jotform-wrap iframe { display: block; opacity: 0; transition: opacity 0.3s ease; }
+    .jotform-wrap iframe.is-loaded { opacity: 1; }
+    .form-loading {
+      position: absolute; inset: 0; z-index: 5;
+      display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+      gap: 1rem; text-align: center; padding: 6rem 2rem 2rem;
+      background: #fff; border-radius: var(--radius);
+    }
+    .form-loading p { margin: 0; color: var(--color-text-light); font-size: 0.95rem; }
+    .form-loading__spinner {
+      width: 40px; height: 40px; border-radius: 50%;
+      border: 4px solid var(--color-mint); border-top-color: var(--color-purple);
+      animation: form-spin 0.8s linear infinite;
+    }
+    @keyframes form-spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .form-loading__spinner { animation-duration: 2.4s; } }
     .what-included {
       background: var(--color-offwhite);
       border-radius: var(--radius);
@@ -165,8 +185,23 @@
         </div>
 
         <!-- Jotform embed -->
-        <div style="position: relative;">
-          <script type="text/javascript" src="https://form.jotform.com/jsform/260107307250040"></script>
+        <div class="jotform-wrap">
+          <div class="form-loading" id="form-loading" aria-hidden="true">
+            <span class="form-loading__spinner"></span>
+            <p>Fetching your audit form. Good things take a second!</p>
+          </div>
+          <iframe
+            id="JotFormIFrame-260107307250040"
+            title="Request Your Free SEO + AI Visibility Audit"
+            src="https://form.jotform.com/260107307250040"
+            allow="geolocation; microphone; camera; fullscreen"
+            allowtransparency="true"
+            frameborder="0"
+            scrolling="no"
+            style="min-width:100%; max-width:100%; height:600px; border:none;"
+            onload="this.classList.add('is-loaded'); var l=document.getElementById('form-loading'); if(l) l.remove();"></iframe>
+          <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js" async
+            onload="window.jotformEmbedHandler(&quot;iframe[id='JotFormIFrame-260107307250040']&quot;, 'https://form.jotform.com/')"></script>
           <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 56px; background: #fff; z-index: 10; pointer-events: none;"></div>
         </div>
       </div>

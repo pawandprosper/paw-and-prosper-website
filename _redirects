@@ -1,27 +1,27 @@
-# Paw & Prosper — Netlify Redirects
+# Paw & Prosper: Netlify Redirects
 # WordPress used trailing slashes; staging uses clean URLs (Netlify Pretty URLs)
 # All WordPress page URLs redirect to their clean equivalents
 
-# Core pages — trailing slash → clean URL
+# Core pages: trailing slash → clean URL
 /about/                  /about                   301
 /services/               /services                301
 /free-audit/             /free-audit              301
 /thank-you/              /thank-you               301
 
-# Service pages — trailing slash → clean URL
+# Service pages: trailing slash → clean URL
 /seo-for-veterinary-clinics/   /seo-for-veterinary-clinics   301
 /seo-for-animal-shelters/      /seo-for-animal-shelters      301
 /seo-for-animal-rescues/       /seo-for-animal-rescues       301
 /seo-for-pet-brands/           /seo-for-pet-brands           301
 /seo-for-pet-services/         /seo-for-pet-services         301
 
-# LSAWL case study — critical, has been shared in press and social
+# LSAWL case study: critical, has been shared in press and social
 /how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend/    /how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend    301
 
 # Blog index
 /blog                    /blog/                   301
 
-# Blog posts — trailing slash → clean URL
+# Blog posts: trailing slash → clean URL
 /blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo/    /blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo    301
 /blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care/      /blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care      301
 
