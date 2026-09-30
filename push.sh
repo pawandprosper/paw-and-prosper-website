@@ -10,7 +10,7 @@ MSG="${1:-Deploy updates}"
 echo "🐾 Paw & Prosper Deploy"
 echo "─────────────────────────"
 
-CHANGES=$(git status --short)
+CHANGES=$(git status --short -uall)
 if [ -z "$CHANGES" ]; then
   echo "Nothing to deploy: no changes since the last push."
   exit 0
@@ -22,7 +22,7 @@ echo ""
 git diff --stat HEAD 2>/dev/null | tail -1
 
 # Safety checks: never publish secrets or stray files
-if echo "$CHANGES" | grep -qE '(^| )\.env|\.key$|\.pem$'; then
+if echo "$CHANGES" | grep -qE '(^|/| )\.env|\.key$|\.pem$'; then
   echo "❌ Stopped: a secrets file (.env/.key/.pem) is in the change list. Remove it first."
   exit 1
 fi
@@ -39,8 +39,14 @@ case "$ANSWER" in
 esac
 
 git add .
-git commit -m "$MSG"
-git push
+# Re-check what actually got staged (catches files inside new folders)
+if git diff --cached --name-only | grep -qE '(^|/)\.env|\.key$|\.pem$'; then
+  git reset -q
+  echo "❌ Stopped: a secrets file was staged. Nothing was committed."
+  exit 1
+fi
+git commit -m "$MSG" || { echo "❌ Commit failed. Nothing was pushed."; exit 1; }
+git push || { echo "❌ Push FAILED. The site was NOT updated. The commit is saved locally; fix the error above and run ./push.sh again."; exit 1; }
 echo ""
 echo "✅ Pushed! Netlify will deploy in ~60 seconds."
 echo "👀 Live site: https://paw-and-prosper.netlify.app"
