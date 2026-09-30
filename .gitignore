@@ -5,3 +5,5 @@
 # Secret tokens — never commit these
 .env
 GHT.rtf
+# Agent instructions (local only, never deploy)
+CLAUDE.md
