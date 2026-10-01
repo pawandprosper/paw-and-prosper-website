@@ -24,6 +24,7 @@
 # Blog posts: trailing slash → clean URL
 /blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo/    /blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo    301
 /blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care/      /blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care      301
+/blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics/    /blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics    301
 
 # WordPress .html redirect safety net (in case any external links include .html)
 /about.html              /about                   301
