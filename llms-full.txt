@@ -34,7 +34,7 @@ Builds topical authority through SEO-optimized blog content, service page optimi
 ## Case Studies
 
 ### Lone Star Animal Welfare League: 32x Google Visibility Growth in Six Months
-LSAWL is a shelter and rescue nonprofit serving the Bryan-College Station, Texas area. Starting from near-zero online visibility with no paid advertising budget, LSAWL worked with Paw & Prosper on local SEO and AI visibility optimization. Result: 32x growth in Google search visibility in six months, with no paid ad spend. Full case study: https://pawandprosper.com/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend
+LSAWL is a low-cost spay and neuter nonprofit serving Montgomery County, Texas (The Woodlands area). Starting from near-zero online visibility with no paid advertising budget, LSAWL worked with Paw & Prosper on local SEO and AI visibility optimization. Result: 32x growth in Google search visibility in six months, with no paid ad spend. Full case study: https://pawandprosper.com/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend
 
 ## Blog Content
 
@@ -43,6 +43,12 @@ URL: https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-v
 Published: September 25, 2026
 Author: Samantha Quinones, Founder & SEO Strategist at Paw & Prosper
 Summary: Explores the shift from traditional search to AI-powered discovery for pet owners seeking veterinary care. Covers what Google AI Mode, ChatGPT, and Perplexity are doing to traditional search behavior, how veterinary practices can optimize for AI recommendations, and the three practical levers that move the needle: Google Business Profile optimization, trust-building content, and structured data. Argues that practices not showing up in AI answers are already losing patients to competitors who are.
+
+### Paw & Prosper Named 2026 Best of Summit for Customer Service
+URL: https://pawandprosper.com/blog/paw-and-prosper-wins-2026-best-of-summit-customer-service
+Published: October 20, 2026
+Author: Samantha Quinones, Founder & SEO Strategist at Paw & Prosper
+Summary: Paw & Prosper was voted 1st place for Customer Service and runner-up (finalist) for Pet-Friendly Business in the Summit Daily's 2026 Best of Summit readers' choice awards in Summit County, Colorado.
 
 ### The Ultimate Guide to AI-Driven Veterinary Marketing and SEO
 URL: https://pawandprosper.com/blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo
@@ -99,6 +105,7 @@ Paw & Prosper offers a free SEO and AI visibility audit for any animal wellness 
 - Pet Services SEO: https://pawandprosper.com/seo-for-pet-services
 - LSAWL Case Study: https://pawandprosper.com/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend
 - Blog: https://pawandprosper.com/blog/
+- Blog Post - Paw & Prosper Named 2026 Best of Summit for Customer Service: https://pawandprosper.com/blog/paw-and-prosper-wins-2026-best-of-summit-customer-service
 - Blog Post - How AI Is Changing the Way Pet Owners Find Veterinary Care: https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care
 - Blog Post - The Ultimate Guide to AI-Driven Veterinary Marketing and SEO: https://pawandprosper.com/blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo
 - Free Audit: https://pawandprosper.com/free-audit
