@@ -151,7 +151,7 @@ section { padding: 5rem 0; }
 
 /* Page-specific photo behind a plum overlay:
    <section class="hero hero--photo" style="--hero-img:url('/assets/images/hero-x.webp'); --hero-img-sm:url('/assets/images/hero-x-sm.webp'); --hero-pos:center 70%">
-   --hero-img-sm (phones) and --hero-pos (which part of the photo shows) are optional. */
+   --hero-img-sm (phones), --hero-pos (which part of the photo shows) and --hero-pos-sm (phone override) are optional. */
 .hero--photo {
   --hero-overlay: radial-gradient(ellipse 60% 75% at 50% 50%, rgba(78,70,96,0.88) 0%, rgba(78,70,96,0.80) 55%, rgba(78,70,96,0.45) 100%);
   background:
@@ -163,7 +163,7 @@ section { padding: 5rem 0; }
   .hero--photo {
     background:
       var(--hero-overlay),
-      var(--hero-img-sm, var(--hero-img)) var(--hero-pos, center) / cover no-repeat,
+      var(--hero-img-sm, var(--hero-img)) var(--hero-pos-sm, var(--hero-pos, center)) / cover no-repeat,
       var(--color-plum);
   }
 }
