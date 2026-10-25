@@ -728,3 +728,23 @@ section { padding: 5rem 0; }
   .itachi { margin-top: 2.5rem; }
   .itachi__photo { max-width: 300px; }
 }
+
+/* --- Links inside body text look like links (buttons and cards excluded) --- */
+main :is(p, li, td, figcaption, dd) a:not(.btn):not(.blog-card) {
+  color: var(--color-purple);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--color-sage);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+main :is(p, li, td, figcaption, dd) a:not(.btn):not(.blog-card):hover {
+  color: var(--color-plum);
+  text-decoration-color: var(--color-purple);
+}
+/* Dark backgrounds (hero, CTA boxes, inline gradient sections): keep links white */
+main :is(.hero, .blog-post__cta, [style*="--color-plum"], [style*="--color-purple"], [style*="linear-gradient"]) :is(p, li, td, figcaption, dd) a:not(.btn):not(.blog-card) {
+  color: inherit;
+  text-decoration-color: rgba(255,255,255,0.6);
+}

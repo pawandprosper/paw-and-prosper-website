@@ -38,6 +38,18 @@ LSAWL is a low-cost spay and neuter nonprofit serving Montgomery County, Texas (
 
 ## Blog Content
 
+### What AI Looks At Before It Recommends a Vet
+URL: https://pawandprosper.com/blog/what-ai-looks-at-before-it-recommends-a-vet
+Published: October 25, 2026
+Author: Samantha Quinones, Founder & SEO Strategist at Paw & Prosper
+Summary: Results of live tests asking ChatGPT, Perplexity and Google AI Mode for the best vet in Summit County, Colorado, in September and October 2026. The recommendations changed between months and between tools. Three patterns shaped what AI said: local recognition (awards and news coverage), plain service wording on practice websites, and practical details like hours. Documents AI errors (a false "only clinic" claim, a clinic from Summit County, Ohio, a permanently closed practice) and gives independent practices a checklist plus an FAQ.
+
+### How to Optimize Your Google Business Profile for Vet Clinics
+URL: https://pawandprosper.com/blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics
+Published: October 1, 2026
+Author: Samantha Quinones, Founder & SEO Strategist at Paw & Prosper
+Summary: A step-by-step guide to your vet clinic's Google Business Profile: categories, services, reviews, photos, and posts that help you win the map pack and AI answers.
+
 ### How AI Is Changing the Way Pet Owners Find Veterinary Care
 URL: https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care
 Published: September 25, 2026
@@ -105,6 +117,8 @@ Paw & Prosper offers a free SEO and AI visibility audit for any animal wellness 
 - Pet Services SEO: https://pawandprosper.com/seo-for-pet-services
 - LSAWL Case Study: https://pawandprosper.com/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend
 - Blog: https://pawandprosper.com/blog/
+- Blog Post - What AI Looks At Before It Recommends a Vet: https://pawandprosper.com/blog/what-ai-looks-at-before-it-recommends-a-vet
+- Blog Post - How to Optimize Your Google Business Profile for Vet Clinics: https://pawandprosper.com/blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics
 - Blog Post - Paw & Prosper Named 2026 Best of Summit for Customer Service: https://pawandprosper.com/blog/paw-and-prosper-wins-2026-best-of-summit-customer-service
 - Blog Post - How AI Is Changing the Way Pet Owners Find Veterinary Care: https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care
 - Blog Post - The Ultimate Guide to AI-Driven Veterinary Marketing and SEO: https://pawandprosper.com/blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo

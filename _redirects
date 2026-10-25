@@ -22,6 +22,7 @@
 /blog                    /blog/                   301
 
 # Blog posts: trailing slash → clean URL
+/blog/what-ai-looks-at-before-it-recommends-a-vet/    /blog/what-ai-looks-at-before-it-recommends-a-vet    301
 /blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo/    /blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo    301
 /blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care/      /blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care      301
 /blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics/    /blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics    301
