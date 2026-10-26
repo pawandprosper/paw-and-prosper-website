@@ -67,6 +67,21 @@
     }
 
     .jotform-wrap { position: relative; min-height: 600px; }
+    .audit-extras { display:grid; grid-template-columns: 1.1fr 1fr; gap:2rem; align-items:center; margin-top:0; }
+    .audit-sample-section { padding: 3.5rem 0; }
+    .audit-next { padding-top: 3.5rem; }
+    @media (max-width: 860px) { .audit-sample-section { padding: 2.25rem 0; } .audit-next { padding-top: 2.5rem; } .audit-trust__talk { margin-top: 0.75rem; } }
+    .audit-sample { margin:0; }
+    .audit-sample img { width:100%; height:auto; border-radius:12px; border:1px solid rgba(78,70,96,0.12); box-shadow:0 8px 30px rgba(78,70,96,0.12); }
+    .audit-sample figcaption { font-size:0.85rem; color:var(--color-text-light); text-align:center; margin-top:0.6rem; }
+    .audit-trust h3 { margin-bottom:1rem; }
+    .audit-proof { display:flex; gap:1rem; align-items:center; background:var(--color-mint); border-radius:12px; padding:0.9rem 1.1rem; margin:1.25rem 0; }
+    .audit-proof img { height:56px; width:auto; flex:none; }
+    .audit-proof p { margin:0; font-size:0.95rem; }
+    .audit-trust p { margin-bottom:0.85rem; }
+    .audit-trust__talk { font-size:1.05rem; margin-top:1.25rem; }
+    @media (max-width: 820px) { .audit-extras { grid-template-columns:1fr; } }
+    @media (max-width: 600px) { .audit-proof { flex-direction:column; align-items:flex-start; gap:0.6rem; } .audit-proof img { height:44px; } }
     .jotform-wrap iframe { display: block; opacity: 0; transition: opacity 0.3s ease; }
     .jotform-wrap iframe.is-loaded { opacity: 1; }
     .form-loading {
@@ -112,6 +127,32 @@
       color: var(--color-sage);
       font-weight: 700;
     }
+
+    /* Hero with the form beside the intro (desktop) or right under it (phones) */
+    .audit-hero { padding: 3.5rem 0 4rem; text-align: left; }
+    .audit-hero__grid { display: grid; grid-template-columns: 1.05fr 0.95fr; grid-template-areas: "intro form" "details form"; gap: 1.5rem 3rem; align-items: start; }
+    .audit-hero__intro { grid-area: intro; }
+    .audit-hero__form { grid-area: form; max-width: none; margin: 0; padding: 1.25rem 1.25rem 1.25rem; }
+    .audit-hero__details { grid-area: details; }
+    .audit-hero h1 { margin-bottom: 1rem; }
+    .audit-hero .audit-hero__intro p { margin: 0 0 1.5rem; }
+    .audit-hero .hero__badges { justify-content: flex-start; margin-top: 0; }
+    .audit-hero .what-included { background: rgba(255,255,255,0.10); margin-bottom: 1rem; padding: 1.25rem 1.5rem; }
+    .audit-hero .what-included h3 { color: var(--color-mint); }
+    .audit-hero .what-included li { color: rgba(255,255,255,0.92); padding: 0.25rem 0; }
+    .audit-hero .audit-proof { margin: 0; color: var(--color-text); }
+    .audit-hero .audit-proof p { color: var(--color-text); text-shadow: none; }
+    .audit-hero .audit-proof p a { color: var(--color-purple); text-decoration-color: var(--color-sage); }
+    .audit-hero .jotform-wrap { min-height: 300px; overflow: hidden; }
+    .audit-hero .jotform-wrap iframe { margin-bottom: -88px; } /* trims Jotform's footer bar and the gap under the button */
+    @media (max-width: 860px) {
+      .audit-hero { padding: 1.75rem 0 2rem; }
+      .audit-hero__grid { grid-template-columns: 1fr; grid-template-areas: "intro" "form" "details"; gap: 1.25rem; }
+      .audit-hero h1 { font-size: 1.85rem; margin-bottom: 0.5rem; }
+      .audit-hero .audit-hero__intro p { font-size: 1rem; margin-bottom: 0; }
+      .audit-hero .hero__badges { display: none; }
+      .audit-hero__form { padding: 0.5rem 0.25rem 1rem; }
+    }
   </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BXX00BC6W2"></script>
 <script>
@@ -144,7 +185,7 @@
       <li><a href="/seo-for-pet-brands">Pet Brands</a></li>
     </ul>
   </li>
-  <li><a href="/about">About Us</a></li>
+  <li><a href="/about">About</a></li>
   <li><a href="/blog/">Blog</a></li>
   <li><a href="/free-audit" class="btn btn-primary nav__cta">Free Audit</a></li>
 </ul>
@@ -156,37 +197,20 @@
 
   <main>
 
-  <!-- ===================== HERO ===================== -->
-  <section class="hero hero--photo" style="--hero-img:url('/assets/images/hero-free-audit.webp'); --hero-img-sm:url('/assets/images/hero-free-audit-sm.webp')">
-    <div class="container">
-      <h1>Your Free SEO + AI Visibility Audit</h1>
-      <p>Discover exactly where you stand in search, and what to do next. No guesswork, no overwhelm.</p>
-      <div class="hero__badges">
-        <span class="badge">Takes less than 2 minutes</span>
-        <span class="badge">Results within 48 hours</span>
-        <span class="badge">Built for pet businesses</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== FORM SECTION ===================== -->
-  <section style="background:var(--color-offwhite);">
-    <div class="container">
-      <div class="form-card">
-
-        <!-- What's included -->
-        <div class="what-included">
-          <h3>What's included in your audit</h3>
-          <ul>
-            <li>Current Google search visibility score</li>
-            <li>Local SEO health check</li>
-            <li>AI search presence analysis</li>
-            <li>Competitor comparison snapshot</li>
-            <li>Top 3 priority recommendations</li>
-            <li>1:1 strategy call to walk through your results</li>
-          </ul>
+  <!-- ===================== HERO + FORM (form above the fold) ===================== -->
+  <section class="hero hero--photo audit-hero" style="--hero-img:url('/assets/images/hero-free-audit.webp'); --hero-img-sm:url('/assets/images/hero-free-audit-sm.webp')">
+    <div class="container audit-hero__grid">
+      <div class="audit-hero__intro">
+        <h1>Your Free SEO + AI Visibility Audit</h1>
+        <p>See how Google and AI tools like ChatGPT see your pet business, and what to fix first.</p>
+        <div class="hero__badges">
+          <span class="badge">Takes about a minute</span>
+          <span class="badge">Results within 48 hours</span>
+          <span class="badge">Built for pet businesses</span>
         </div>
+      </div>
 
+      <div class="audit-hero__form form-card">
         <!-- Jotform embed -->
         <div class="jotform-wrap">
           <div class="form-loading" id="form-loading" aria-hidden="true">
@@ -201,18 +225,56 @@
             allowtransparency="true"
             frameborder="0"
             scrolling="no"
-            style="min-width:100%; max-width:100%; height:600px; border:none;"
+            style="min-width:100%; max-width:100%; height:360px; border:none;"
             onload="this.classList.add('is-loaded'); var l=document.getElementById('form-loading'); if(l) l.remove();"></iframe>
           <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js" async
             onload="window.jotformEmbedHandler(&quot;iframe[id='JotFormIFrame-260107307250040']&quot;, 'https://form.jotform.com/')"></script>
-          <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 56px; background: #fff; z-index: 10; pointer-events: none;"></div>
+        </div>
+      </div>
+
+      <div class="audit-hero__details">
+        <div class="what-included">
+          <h3>What's included in your audit</h3>
+          <ul>
+            <li>Current Google search visibility score</li>
+            <li>Local SEO health check</li>
+            <li>AI search presence analysis</li>
+            <li>Competitor comparison snapshot</li>
+            <li>Top 3 priority recommendations</li>
+            <li>Optional 20-minute walkthrough of your results</li>
+          </ul>
+        </div>
+
+        <!-- Proof right above the form -->
+        <div class="audit-proof">
+          <img loading="lazy" decoding="async" src="/assets/images/badge-best-of-summit-2026-winner.webp" alt="2026 Best of Summit, 1st Place: Customer Service" width="268" height="160" />
+          <p><strong>Voted 2026 Best of Summit for Customer Service.</strong> Helped Lone Star Animal Welfare League grow Google visibility 32x in six months, with no ad spend (<a href="/how-lone-star-animal-welfare-league-grew-google-visibility-32x-in-six-months-no-ad-spend">case study</a>).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SAMPLE REPORT ===================== -->
+  <section class="audit-sample-section" style="background:var(--color-offwhite);">
+    <div class="container">
+      <!-- Sample report + trust -->
+      <div class="audit-extras">
+        <figure class="audit-sample">
+          <img loading="lazy" decoding="async" src="/assets/images/sample-ai-snapshot.webp" alt="Sample page from a Paw &amp; Prosper AI snapshot: how often ChatGPT, Google AI Mode and Perplexity name the business, where it shows up, what's holding it back and what to fix first" width="1000" height="1036" />
+          <figcaption>A sample page from your report.</figcaption>
+        </figure>
+        <div class="audit-trust">
+          <h3>What you'll get</h3>
+          <p>A short, plain-language report showing how Google and AI tools like ChatGPT see your business today, what's holding you back, and the three fixes I'd start with.</p>
+          <p><strong>You work with me directly.</strong> No account managers, and no contract needed to get your audit.</p>
+          <p class="audit-trust__talk">Prefer to talk first? <a href="https://calendar.app.google/mRywGRjmSQoRiuGN6" target="_blank" rel="noopener">Book a 20-minute call</a>.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ===================== HOW IT WORKS ===================== -->
-  <section>
+  <section class="audit-next">
     <div class="container">
       <div class="section__header">
         <h2>What Happens Next</h2>
@@ -223,12 +285,12 @@
         <div class="card" style="text-align:center;">
           <div style="font-size:2rem; font-weight:700; color:var(--color-purple); margin-bottom:0.5rem;">01</div>
           <h3>Submit Your Info</h3>
-          <p>Takes less than 2 minutes. Tell us about your pet business and your goals.</p>
+          <p>Takes about a minute. Tell me about your pet business.</p>
         </div>
         <div class="card" style="text-align:center;">
           <div style="font-size:2rem; font-weight:700; color:var(--color-purple); margin-bottom:0.5rem;">02</div>
-          <h3>We Analyze Your Visibility</h3>
-          <p>We review your Google presence, local SEO, and AI search visibility within 48 hours.</p>
+          <h3>I Review Your Visibility</h3>
+          <p>I check your Google presence, local SEO and what AI tools say about you, within 48 hours.</p>
         </div>
         <div class="card" style="text-align:center;">
           <div style="font-size:2rem; font-weight:700; color:var(--color-purple); margin-bottom:0.5rem;">03</div>
@@ -237,8 +299,8 @@
         </div>
         <div class="card" style="text-align:center;">
           <div style="font-size:2rem; font-weight:700; color:var(--color-purple); margin-bottom:0.5rem;">04</div>
-          <h3>Optional Strategy Call</h3>
-          <p>If you'd like, we'll walk through your results together. Zero pressure, just clarity.</p>
+          <h3>Optional Walkthrough</h3>
+          <p>If you'd like, I'll walk you through your results in 20 minutes. Zero pressure, just clarity.</p>
         </div>
       </div>
     </div>
@@ -272,7 +334,7 @@
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
-            <li><a href="/about">About Us</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="/free-audit">Free Audit</a></li>
             <li><a href="/blog/">Blog</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
