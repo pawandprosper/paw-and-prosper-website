@@ -80,7 +80,7 @@
 
   <url>
     <loc>https://pawandprosper.com/blog/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -119,4 +119,10 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://pawandprosper.com/blog/what-evertunes-pet-industry-data-says-about-ai-search</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
