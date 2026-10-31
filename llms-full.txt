@@ -38,6 +38,12 @@ LSAWL is a low-cost spay and neuter nonprofit serving Montgomery County, Texas (
 
 ## Blog Content
 
+### How to Check if AI Recommends Your Pet Business (and What to Fix First)
+
+URL: https://pawandprosper.com/blog/how-to-check-if-ai-recommends-your-pet-business
+
+Three copy-paste tests (AI names you for the best near you, AI describes you correctly, trusted sites list you), a table for reading results, and the fix order for pet businesses: complete the Google Business Profile and primary category, weekly reviews with replies, consistent listings and local mentions, a page per service, answer-first openings.
+
 ### What Evertune's Pet Industry Data Says About AI Search
 URL: https://pawandprosper.com/blog/what-evertunes-pet-industry-data-says-about-ai-search
 Published: October 30, 2026
@@ -97,6 +103,44 @@ Most animal wellness businesses are optimized for none of these, or at best one.
 - Nonprofit pricing for animal shelters, rescues, and animal welfare organizations
 - Founder has 12+ years of digital marketing experience and personally volunteers in animal welfare
 - Focuses on long-term organic visibility, not just paid traffic
+
+## Free Resource: The Unmissable Checklist
+
+URL: https://pawandprosper.com/ai-visibility-checklist
+
+A free, 20-point self-audit that shows whether ChatGPT, Gemini, Perplexity and Google can find, understand and trust a pet business (vets, groomers, boarding and daycare, trainers, pet brands, rescues). Each check takes under 2 minutes and is worth 5 points. Bands: 0 to 49 Invisible, 50 to 74 Findable, 75 to 100 Unmissable. It is a simplified version of the Unmissable Index, the four-pillar framework Samantha Quinones uses in paid audits. The checks are signals search engines and AI tools are known to use, not a guaranteed formula.
+
+**Pillar 1: Technical Foundation (20 points).** Can Google and AI tools reach and read your website?
+
+1. Your site loads fast on a phone: Most people find you on their phone. Slow pages lose them before they ever see your services.
+2. Google has your important pages: If Google hasn't indexed a page, neither Google Search nor its AI answers can show it.
+3. Your site tells machines who you are: Schema markup is a hidden label on your site that spells out your business type, address, phone and hours for search engines.
+4. AI tools are allowed to read your site: A file called robots.txt can quietly block the crawlers AI search tools use to read your site.
+
+**Pillar 2: Authority Engine (20 points).** Does your website prove you know your stuff?
+
+5. Every main service has its own page: One “Services” page with a bullet list gives Google and AI nothing specific to match or quote.
+6. You have helpful guides, not just sales pages: AI tools recommend the businesses that explain things well. Guides show you're the expert.
+7. Something new or updated in the last 90 days: Fresh, accurate pages tell people and machines you're open, active and current.
+8. Your pages link to each other and to booking: Links between your pages help Google find everything and help visitors take the next step.
+
+**Pillar 3: AI & Search Optimization (20 points).** When someone asks AI, are you the answer?
+
+9. AI names you when asked for the best near you: The core test: when a customer asks an AI assistant for a recommendation, are you in the answer?
+10. AI describes you correctly: Being mentioned isn't enough. AI has to get your services, location and reputation right.
+11. Your first two sentences say what you do and where: AI tools quote short passages. Pages that answer up front are the easiest to quote.
+12. You have a real FAQ: People now type full questions into search and AI. A good FAQ answers them in your words.
+
+**Pillar 4: Local & Trust Signals (40 points).** Do Google and AI trust you enough to recommend you?
+
+13. Your Google Business Profile is claimed and complete: Your Google profile feeds Google Maps and Google's AI answers, and other AI tools read it too.
+14. Your Google Business Profile category is the right one: Your primary category tells Google which searches you're relevant for, and relevance is one of the three things Google says local results depend on.
+15. Your review count keeps up with the top 3: Google says review count and rating factor into local ranking, and AI tools summarize your reviews for shoppers.
+16. A strong rating, with a review in the last 30 days: Shoppers trust recent reviews, and so do the tools that summarize them.
+17. You reply to every review: Replies show you're paying attention, and they add fresh, specific detail about your services.
+18. New photos and a post in the last 30 days: An active profile looks open and trustworthy. A stale one looks closed.
+19. You're in the top 3 on the map for your main search: The top 3 map results are what people see first on their phone, before they scroll or ask anything else.
+20. Trusted sites list you, with matching details: Before recommending you, AI tools cross-check what other sites say about you.
 
 ## Free Audit
 

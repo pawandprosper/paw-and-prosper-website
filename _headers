@@ -1,0 +1,6 @@
+# Lead magnet PDFs and thank-you pages stay out of search, so the gate isn't bypassed
+/downloads/*
+  X-Robots-Tag: noindex, nofollow
+
+/ai-visibility-checklist/thank-you
+  X-Robots-Tag: noindex, nofollow

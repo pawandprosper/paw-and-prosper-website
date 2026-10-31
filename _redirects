@@ -38,3 +38,11 @@
 /seo-for-animal-rescues.html        /seo-for-animal-rescues        301
 /seo-for-pet-brands.html            /seo-for-pet-brands            301
 /seo-for-pet-services.html          /seo-for-pet-services          301
+
+# Lead magnet landing page: trailing slash -> clean URL
+/ai-visibility-checklist/   /ai-visibility-checklist   301
+/ai-visibility-checklist   /ai-visibility-checklist.html   200
+/blog/how-to-check-if-ai-recommends-your-pet-business/    /blog/how-to-check-if-ai-recommends-your-pet-business    301
+
+# Function source stays private (the repo root is the publish folder)
+/netlify/*   /404.html   404!

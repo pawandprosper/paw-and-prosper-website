@@ -19,12 +19,17 @@ Founded by Samantha Quinones, a digital marketing strategist specializing in SEO
 
 ## Blog
 
+- [How to Check if AI Recommends Your Pet Business (and What to Fix First)](https://pawandprosper.com/blog/how-to-check-if-ai-recommends-your-pet-business): Three copy-paste tests to check whether ChatGPT, Gemini and Perplexity recommend a pet business, a results table, and the order to fix things in.
 - [What Evertune's Pet Industry Data Says About AI Search](https://pawandprosper.com/blog/what-evertunes-pet-industry-data-says-about-ai-search): Evertune's pet food and pet supplies data shows who AI recommends, which brands tested ChatGPT ads and pulled them, and what vets and pet businesses should do.
 - [What AI Looks At Before It Recommends a Vet](https://pawandprosper.com/blog/what-ai-looks-at-before-it-recommends-a-vet): I asked ChatGPT, Perplexity and Google AI Mode to recommend a Summit County vet, a month apart. What their answers relied on, and what practices can fix.
 - [How to Optimize Your Google Business Profile for Vet Clinics](https://pawandprosper.com/blog/how-to-optimize-your-google-business-profile-for-veterinary-clinics): A step-by-step guide to your vet clinic's Google Business Profile: categories, services, reviews, photos, and posts that help you win the map pack and AI answers.
 - [How AI Is Changing the Way Pet Owners Find Veterinary Care](https://pawandprosper.com/blog/how-ai-is-changing-the-way-pet-owners-find-veterinary-care): What the shift to AI-powered search means for veterinary practices and how to stay visible.
 - [Paw & Prosper Named 2026 Best of Summit for Customer Service](https://pawandprosper.com/blog/paw-and-prosper-wins-2026-best-of-summit-customer-service): Summit Daily readers voted Paw & Prosper 1st place for Customer Service and a finalist (runner-up) for Pet-Friendly Business in the 2026 Best of Summit awards.
 - [The Ultimate Guide to AI-Driven Veterinary Marketing and SEO](https://pawandprosper.com/blog/the-ultimate-guide-to-ai-driven-veterinary-marketing-and-seo): A comprehensive guide to combining traditional SEO and AI search optimization for veterinary practices.
+
+## Free Resources
+
+- [The Unmissable Checklist: Is AI Recommending Your Pet Business?](https://pawandprosper.com/ai-visibility-checklist): Free 20-point self-audit for pet businesses with copy-paste prompts for ChatGPT, Gemini and Perplexity. Four pillars (Technical Foundation, Authority Engine, AI & Search Optimization, Local & Trust Signals), scored out of 100.
 
 ## Company
 
