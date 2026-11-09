@@ -217,6 +217,19 @@
             scrolling="no"
             style="min-width:100%; max-width:100%; height:360px; border:none;"
             onload="this.classList.add('is-loaded'); var l=document.getElementById('form-loading'); if(l) l.remove();"></iframe>
+          <script>
+            /* Ad tracking (added 2026-11-09): pass utm_* and gclid from this page's URL into the
+               Jotform iframe, so the form's hidden fields record which ad keyword brought each request.
+               Only runs when the visitor arrived with tracking parameters; everyone else is untouched. */
+            (function () {
+              var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid'];
+              var here = new URLSearchParams(window.location.search), pass = new URLSearchParams();
+              keys.forEach(function (k) { if (here.get(k)) pass.set(k, here.get(k)); });
+              if (!pass.toString()) return;
+              var f = document.getElementById('JotFormIFrame-260107307250040');
+              if (f) f.src = 'https://form.jotform.com/260107307250040?' + pass.toString();
+            })();
+          </script>
           <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js" async
             onload="window.jotformEmbedHandler(&quot;iframe[id='JotFormIFrame-260107307250040']&quot;, 'https://form.jotform.com/')"></script>
         </div>
